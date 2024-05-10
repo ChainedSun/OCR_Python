@@ -1,0 +1,36 @@
+QWidget {
+    background-color: #351849;
+    color: white;
+}
+
+QWidget#ControlsWidget {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+QListWidget#FileList {
+    background-color: white;
+}
+
+QScrollArea {
+    border: 1px solid white;
+}
+
+QWidget#FileItem QHBoxLayout {
+    border: 1px solid red;
+}
+
+QPushButton#FileItemButton {
+    background-color: #61215c;
+    border: 1px solid White;
+    color: white;
+    text-align: left;
+}
+QPushButton:hover#FileItemButton {
+    background-color: #682b63;
+    color: white;
+}
+QPushButton:checked#FileItemButton {
+    background-color: #410c3c;
+    color: white;
+}
